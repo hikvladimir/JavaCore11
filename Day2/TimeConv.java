@@ -4,7 +4,7 @@
 * минут и секунд*/
 public class TimeConv {
     public static void main(String[] args) {
-        int time=500000;
+        int time=5000;
         int sec=time%60;
         int min=time/60;
         int hour=min/60;
